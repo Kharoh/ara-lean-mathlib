@@ -15,7 +15,11 @@ Produce math research that is **relevant, reproducible, and proved**: results th
 
 Definitions, theorems, and the proven core of the theory. Run `lake` from inside `lean/` (`cd lean && lake build`); first time use `lake exe cache get` to fetch precompiled Mathlib. Versions are pinned in `lean/lean-toolchain` and `lean/lakefile.toml` — don't bump one without the other.
 
-The split: anything we **claim is proven** lives in Lean. Conjectures, simulations, and informal arguments live elsewhere (notebooks, comments, Quarto if added).
+The split: anything we **claim is proven** lives in Lean. Conjectures, simulations, and informal arguments live in notebooks or comments; polished outputs live in Quarto (see below).
+
+## What goes in Quarto
+
+Vitrin demos and papers — every final-result artifact aimed at human readers — are written in Quarto. Talks, write-ups, and showcase pages go here, not in notebooks. Notebooks are for exploration; Quarto is for what we publish.
 
 ## ARA — Agent-Native Research Artifact
 
