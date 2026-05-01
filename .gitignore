@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+.claude/*
+!.claude/skills/
+
+# Lean
+lean/.lake/
+lean/build/
+lean/lake-packages/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Quarto
+**/_book/
+**/_freeze/
+**/.quarto/
