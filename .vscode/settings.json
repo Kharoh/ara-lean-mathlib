@@ -1,0 +1,70 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        88,
+        100
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "lean4.serverEnv": {
+        "LEAN_PATH": ""
+    },
+    "lean4.input.eagerReplacementEnabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[lean4]": {
+        "editor.formatOnSave": false
+    },
+    "[quarto]": {
+        "editor.wordWrap": "on",
+        "editor.rulers": []
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.rulers": []
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "HACK",
+        "NOTE",
+        "CONJECTURE",
+        "DEAD-END",
+        "OPEN"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "CONJECTURE": {
+            "icon": "light-bulb",
+            "foreground": "#a78bfa"
+        },
+        "DEAD-END": {
+            "icon": "x-circle",
+            "foreground": "#ef4444"
+        },
+        "OPEN": {
+            "icon": "question",
+            "foreground": "#fbbf24"
+        }
+    },
+    "cSpell.words": [
+        "Banach",
+        "biorxiv",
+        "Bochner",
+        "Brascamp",
+        "Causal",
+        "Fréchet",
+        "Galerkin",
+        "Hilbert",
+        "Lehmann",
+        "Mathlib",
+        "Mehrjou",
+        "Schölkopf",
+        "Sobolev",
+        "Wasserstein"
+    ]
+}

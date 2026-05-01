@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "leanprover.lean4",
+        "quarto.quarto",
+        "james-yu.latex-workshop",
+        "anthropic.claude-code",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-mermaid",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "christian-kohler.path-intellisense",
+        "gruntfuggly.todo-tree",
+        "aaron-bond.better-comments"
+    ]
+}
